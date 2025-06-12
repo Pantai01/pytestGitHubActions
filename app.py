@@ -1,11 +1,13 @@
 def calcularAreaTriangulo(base, altura):
-    if base < 0 or altura < 0:
+    #Si la base o la altura son menores o iguales a cero, retorna -1
+    if base <= 0 or altura <= 0:
         return -1
     return (base * altura) / 2
 
 
 def calcularAreaCuadrado(lado):
-    if lado < 0:
+    #Si el lado es menor o igual a cero, retorna -1
+    if lado <= 0:
         return -1
     return lado * lado
 
